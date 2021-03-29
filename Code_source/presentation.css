@@ -1,0 +1,29 @@
+body
+{
+	background-color: #caf;
+	text-align: justify;
+	width: 100%;
+
+}
+h1{
+	
+	color: navy;
+	font-family: sans-serif;
+	font-weight: normal;
+	text-align: center;
+	
+}
+section h2{
+	color: black;
+	font-family: serif;
+
+}
+body
+{
+	background-color: white;
+	color: white;
+}
+article h1 h2
+{
+  color: white;
+}

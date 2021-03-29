@@ -1,0 +1,17 @@
+section aside{
+	float: left;
+	width: 50%;
+	border: 2px solid black;
+	border-radius: 25px;
+	margin-left: 5px;
+	padding: auto;
+	padding-left: 15px;
+}
+section article{
+	margin-left: auto;
+}
+body
+{
+	color: black;
+	background-color: #cc12;
+}

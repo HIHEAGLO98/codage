@@ -1,0 +1,145 @@
+/*définition des polices spécialisées*/
+@font-family
+{
+	font-family: 'laritta';
+	src:url('police/laritta.ttf') format(truetype);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-family
+{
+	font-family: 'inkedbones';
+	src:url('police/InkedBones_PERSONAL_USE_ONLY.ttf') format(truetype);
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+/* le menu*/
+
+
+/*Navigation*/
+
+nav ul li a:hover
+{
+	color: #760001;
+	border-bottom: 4px solid #760001;
+	color: #760001;
+	border-bottom: 4px solid #760001;
+	border-radius: 10px;
+	transition-duration: 1s;
+}
+
+#logo
+{
+
+	position: fixed;
+    width: 100%;
+    height: 10px;
+
+
+
+}
+
+
+
+section h1{
+	color: blue;
+    margin: 15px;
+}
+section
+{
+	padding: 4px;
+	margin: auto;
+}
+
+article p{
+  width: 1000px;
+
+  
+}
+body
+{
+	width: 100%;
+	padding: auto;
+	margin: auto;
+	padding-left: 40px;
+	margin-left: 20px;
+	padding-top: 15px;
+	margin-bottom: 20px;
+	background-color: black;
+	color: white;
+	background: url(image/imag.jpg);
+	
+}
+/*style de la disposition des article*/
+
+.titre {
+    width: 100%;
+    background-color: #145c53;
+    color: white;
+    font-size: 15px;
+    padding: 3px 10px 1px 20px;
+    font-family: serif;
+}
+
+.article {
+    margin: 10px 0;
+}
+
+.article>article {
+    padding: 5px 15px;
+    box-shadow: 3px 1px 10px silver;
+    border-left: 5px solid silver;
+    margin-bottom: 20px;
+    display: inline-grid;
+    overflow: hidden;
+    grid-template-columns: 200px auto;
+    grid-gap: 10px;
+}
+
+.image-article img {
+    width: 100%;
+}
+
+.article>article>div:nth-child(2) {
+    padding: 0 10px;
+}
+
+
+
+
+/*Style du pied de page */
+footer {
+    background-color: #a5b9be;
+    padding: 10px 130px;
+    text-align: center;
+}
+.lien {
+    display: flex;
+    justify-content: space-between;
+}
+.lien>div a {
+    text-decoration: none;
+    color: rgb(41, 35, 31);
+}
+.lien>div a:hover {
+    color: rgb(253, 0, 200);
+}
+
+figcaption{
+    text-align: center;
+}
+.lien_propos .copyright{
+        width: 100%;
+        text-align: center;
+    }
+
+   .copyright
+   {
+   	color:navy;
+   }
+
+  /* .contenu-page {
+    padding: 5px 60px;
+}*/

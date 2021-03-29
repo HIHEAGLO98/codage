@@ -1,0 +1,20 @@
+body{
+	margin: 25px;
+	padding: 35px;
+}
+article p{
+	margin-right: 99px;
+}
+h1{
+	background-color: navy;
+	color: white;
+	
+}
+#aneho
+{
+	position: relative;
+}
+#agbodra
+{
+	float: left;
+}

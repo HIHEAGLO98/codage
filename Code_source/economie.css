@@ -1,0 +1,27 @@
+div h1{
+	text-align: center;
+	background-color: blue;
+	font-family: serif;
+	color: white;
+
+}
+div h2{
+	text-align: center;
+}
+section {
+	margin: 25px;
+	padding: 25px;
+}
+body{
+	width: 100%;
+
+}
+section article 
+{
+	text-align: justify-all;
+}
+body
+{
+	color: #ffffff;
+	background-color: #ffffff;
+}
